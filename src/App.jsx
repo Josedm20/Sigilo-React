@@ -53,7 +53,7 @@ function App() {
               Imagens3="gero"
               Titulos3="Gero"
               Descripcions3="Gero es un hombre serio, disciplinado, ambicioso y arriesgado."
-              Creadors3="Jose Marin"
+              Creadors3="Jose Marín"
             />
           </div>
           <div className='col-12 col-lg-4'>
