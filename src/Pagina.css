@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Creato;
+    src: url(./CreatoDisplay-Light.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+    font-family: Creato;
+}
+.texto{
+    text-align: justify;
+    font-size: 18px !important; 
+    font-weight: 700;
+}
+
+/* HEADER */
+header{
+    background: black;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+header a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #E5C505;
+    margin: auto;
+    display: block;
+}
+
+header a:hover::after{
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.ir-arriba{
+    animation: pelota 0.3s infinite alternate ease-out;
+    border-radius: 30px;
+    display: none;
+    padding: 20px;
+    background: black;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+.btnh{
+    background-color: rgba(255, 255, 255, 0.89);
+}
+.th{
+    font-size: 30px;
+    padding-left: 11rem;
+}
+.mi{
+    margin-left: 1.5rem;
+}
+.tl{
+    font-size: 18px;
+}
+/* FIN HEADER */
+
+/* SECTION 1 */
+.msection{
+    padding-top: 3rem;
+}
+.img-transform-s1{
+    transition: 0.3s;
+}
+.img-transform-s1:hover {
+    transition: 0.3s;
+    transform:scale(0.9);
+    cursor: pointer;
+}
+/* FIN SECTION 1 */
+
+/* SECTION 2 */
+.pconocenos{
+    margin-top: 6rem;
+    background-color: #e4e5e5;
+}
+.ppt{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 6rem;
+}
+/* FIN SECTION 2 */
+
+/* SECTION 3 */
+.ttt{
+    font-weight: 700;
+    font-size: 18px !important;
+}
+.pjuego{
+    margin-bottom: 7rem;
+}
+.bg-card{
+    background-color: #e5c505;
+}
+.tamaño-card{
+    width: 250px;
+}
+.img-card{
+    height: 200px;
+    width: 200px;
+}
+.titulo-card{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.texto{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.raya-card{
+    list-style: none;
+    width: 95%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+.shadow-card{
+    box-shadow: #0f0f0f88 2px 2px 1rem;
+}
+.leters{
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+}
+.btn-card {
+    background: black;
+    color: white;
+    border: 2px solid black;
+    padding: 20px 60px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: #0f0f0f88 2px 2px 1rem;
+}
+  .btn-card:hover {
+    color: black; /* color de fuente hover */
+}
+  .btn-card::after {
+    content: "";
+    background: #e5c505; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 20px 60px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    font-weight: 500;
+}
+  .btn-card:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.img-transform{
+    transition: 0.3s;
+}
+.img-transform:hover {
+    transition: 0.3s;
+    transform:scale(1.1);
+    cursor: pointer;
+}
+/* FIN SECTION 3 */
+
+/* FOOTER */
+footer{
+    background-color: black;
+    margin-top: 4rem;
+    font-size: 18px;
+}
+footer ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #E5C505;
+    margin: auto;
+    display: block;
+}
+
+footer ul li a:hover::after{
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.img-transform-f{
+    transition: 0.3s;
+}
+.img-transform-f:hover {
+    transition: 0.3s;
+    transform:scale(1.2);
+    cursor: pointer;
+}
+/* FIN FOOTER */
